@@ -2,12 +2,11 @@ package main
 
 import (
 	"encoding/json"
+	"github.com/gin-gonic/gin"
 	"math"
 	"math/rand"
 	"runtime"
 	"time"
-
-	"github.com/gin-gonic/gin"
 )
 
 //Income is to accept the post request from Python
