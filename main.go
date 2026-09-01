@@ -176,5 +176,5 @@ func main() {
 
 		c.JSON(200, gin.H{"MSE": aNewSwarm.globalBestLoss, "param_opt": aNewSwarm.globalBestPosition})
 	})
-	router.Run(":8080")
+	router.Run("0.0.0.0:8080")
 }
